@@ -54,6 +54,7 @@ nav {
   margin: 15px 0;
   margin-left: 10px;
   aspect-ratio: auto 518 / 304.767;
+  pointer-events: auto;
 }
 .nav-list {
   display: flex;
@@ -134,3 +135,137 @@ h1 {
 .s {
   z-index: 100;
 }
+
+/* ==================================== Sections =================================== */
+
+.button_about_discord {
+  background-color: #5865F2;
+}
+
+.button_about_telegram {
+  background-color: #0088CC;
+}
+
+
+.summary_section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border:  2px solid #6b78b3;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.title_summary {
+  margin: 20px 20px;
+  margin-bottom: 0;
+}
+.text_summary {
+  font-size: 18px;
+  margin: 20px 20px;
+  margin-top: 10px;
+}
+
+
+.info_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px 22px;
+}
+
+
+.skills_article {
+  width: auto;
+}
+.skills_title {
+  margin: 20px 0px 10px 0px;
+}
+.skills_list {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.skills_list-item {
+  padding: 3px 0;
+}
+
+
+.contact_title {
+  margin: 20px 0px 10px 0px;
+}
+.contact_list {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.contact_list-item {
+  padding: 3px 0;
+}
+
+
+.language_title {
+  margin: 20px 0px 10px 0px;
+}
+.language_list {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.language_list-item {
+  padding: 3px 0;
+}
+
+
+.project_section {
+  margin: 10px 22px;
+}
+.project_title {
+  margin: 20px 0px 10px 0px;
+}
+.project_text {
+  font-size: 18px;
+  font-weight: 600;
+}
+.project_link {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.courses_section {
+  margin: 10px 22px;
+}
+.courses_title {
+  margin: 20px 0px 10px 0px;
+}
+.language_list {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.courses_list-item {
+  padding: 3px 0;
+}
+
+
+.project-courses_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+
+
+footer {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0a0d11;
+}
+
+.footer_github {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
